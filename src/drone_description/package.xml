@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>drone_description</name>
+  <version>0.0.1</version>
+  <description>无人机 URDF 模型描述包</description>
+  <maintainer email="user@todo.todo">user</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>joint_state_publisher</exec_depend>
+  <exec_depend>rviz2</exec_depend>
+  <exec_depend>urdf</exec_depend>
+  <depend>gazebo_ros</depend>
+  <depend>gazebo_ros_pkgs</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
